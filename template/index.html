@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nina Gruteser</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}?142258537">
+</head>
+
+<body>
+    <div>
+        <div>
+            <img id="me" src="{% static 'images/me.jpg' %}">
+            <img id="nina_gruteser" src="{% static 'images/nina_gruteser.jpg' %}">
+        </div>
+
+        <div>
+            <img id="about_me_header" src="{% static 'images/about_me.jpg' %}">
+            <h3 class="about_me">I am a second-year undergraduate student at Purdue 
+                                 University, pursuing a double major in Computer 
+                                 Science Honors and Artificial Intelligence. My 
+                                 interests and experiences include software 
+                                 engineering, deep learning, data analysis, and large 
+                                 language models.
+
+                                 Outside the classroom, I enjoy painting, reading a 
+                                 good book, and cooking!</h3>
+        </div>
+
+        <div>
+            <img id="publications_header" src="{% static 'images/publications.jpg' %}">
+            <h3 class="paper1">Head and Neck Tumor Segmentation With Sliced 3D PET Scans </h3>
+            <h3 class="conference">IEEE/ACM CHASE 2022 </h3>
+            <h3 class="authors">Nina Gruteser</h3>
+        </div>
+        
+
+        <div>
+            <img id="projects_header" src="{% static 'images/projects.jpg' %}">
+            <h3 class="color_palette">Color Palette</h3>
+            
+            <h3 class="color_palette">Color Palette</h3>
+
+            <h3 class="lip_coders">Lip Coders</h3>
+        </div>
+        
+
+
+    </div>
+
+
+</body>
+</html>

@@ -7,10 +7,59 @@ body {
 }
 
 
-#img1 {
+#nina_gruteser {
     width: 256px; 
     height: 256px; 
     top: 464px; 
     left: -213px;
     position: absolute;
+}
+
+#about_me_header {
+    width: 335px; 
+    height: 81px; 
+    top: 69px; 
+    left: 495px;
+    position: absolute;
+}
+
+#publications_header {
+    width: 415px; 
+    height: 71px; 
+    top: 479px; 
+    left: 490px;
+    position: absolute;
+}
+
+#projects_header {
+    width: 340px; 
+    height: 91px; 
+    top: 722px; 
+    left: 458px;
+    position: absolute;
+}
+
+
+h3.about_me {
+    width: 602px; 
+    height: 270px; 
+    left: 529px; 
+    top: 150px;
+    position: absolute;
+    color: #345E8B; 
+    font-size: 25px; 
+    font-family: Kameron;
+    word-wrap: break-word
+}
+
+h3.about_me {
+    width: 602px; 
+    height: 270px; 
+    left: 529px; 
+    top: 150px;
+    position: absolute;
+    color: #345E8B; 
+    font-size: 25px; 
+    font-family: Kameron;
+    word-wrap: break-word
 }
