@@ -56,6 +56,7 @@ h3.about_me {
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
+    font-weight: 200;
     font-family: 'Kameron', serif;
     word-wrap: break-word
 }
@@ -69,6 +70,7 @@ h3.paper1 {
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
+    font-weight: 200;
     font-family: 'Kameron', serif;
     word-wrap: break-word
 }
@@ -93,6 +95,7 @@ h3.authors {
     position: absolute;
     color: #345E8B; 
     font-size: 18px; 
+    font-weight: 200;
     font-family: 'Kameron', serif;
     word-wrap: break-word
 }
@@ -100,18 +103,19 @@ h3.authors {
 .pdf-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: transparent; 
+    color: #345E8B; 
     font-size: 16px;
+    font-family: 'Kameron', serif;
     text-align: center;
     text-decoration: none;
-    border: none;
-    border-radius: 5px;
+    border: 2px solid #223555; 
+    border-radius: 30px;
     cursor: pointer;
-}
-
-.pdf-button:hover {
-    background-color: #45a049;
+    position: absolute;
+    top: 470px;  
+    left: 529px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 
@@ -123,6 +127,7 @@ h3.color_palette {
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
+    font-weight: 200;
     font-family: 'Kameron', serif;
     word-wrap: break-word
 }
@@ -135,6 +140,7 @@ h3.lip_coders {
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
+    font-weight: 200;
     font-family: 'Kameron', serif;
     word-wrap: break-word
 }
