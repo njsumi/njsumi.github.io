@@ -97,6 +97,24 @@ h3.authors {
     word-wrap: break-word
 }
 
+.pdf-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pdf-button:hover {
+    background-color: #45a049;
+}
+
+
 h3.color_palette {
     width: 700px; 
     height: 30px; 
