@@ -60,18 +60,6 @@ h3.about_me {
     word-wrap: break-word
 }
 
-h3.about_me {
-    width: 602px; 
-    height: 270px; 
-    left: 529px; 
-    top: 150px;
-    position: absolute;
-    color: #345E8B; 
-    font-size: 25px; 
-    font-family: Kameron;
-    word-wrap: break-word
-}
-
 
 h3.paper1 {
     width: 700px; 
