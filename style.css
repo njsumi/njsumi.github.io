@@ -8,7 +8,7 @@ body {
 
 
 #me {
-    width: 200px; 
+    width: 300px; 
     height: auto; 
     top: 66px; 
     left: 60px;
@@ -55,7 +55,7 @@ h3.about_me {
     top: 150px;
     position: absolute;
     color: #345E8B; 
-    font-size: 25px; 
+    font-size: 22px; 
     font-family: Kameron;
     word-wrap: break-word
 }
@@ -71,3 +71,65 @@ h3.about_me {
     font-family: Kameron;
     word-wrap: break-word
 }
+
+
+h3.paper1 {
+    width: 700px; 
+    height: 30px; 
+    left: 529px; 
+    top: 564px;
+    position: absolute;
+    color: #345E8B; 
+    font-size: 22px; 
+    font-family: Kameron;
+    word-wrap: break-word
+}
+
+h3.conference {
+    width: 700px; 
+    height: 30px; 
+    left: 529px; 
+    top: 594px;
+    position: absolute;
+    color: #345E8B; 
+    font-size: 22px; 
+    font-family: Kameron;
+    word-wrap: break-word
+}
+
+h3.authors {
+    width: 700px; 
+    height: 30px; 
+    left: 529px; 
+    top: 624px;
+    position: absolute;
+    color: #345E8B; 
+    font-size: 22px; 
+    font-family: Kameron;
+    word-wrap: break-word
+}
+
+h3.color_palette {
+    width: 700px; 
+    height: 30px; 
+    left: 529px; 
+    top: 827px;
+    position: absolute;
+    color: #345E8B; 
+    font-size: 22px; 
+    font-family: Kameron;
+    word-wrap: break-word
+}
+
+h3.lip_coders {
+    width: 121px; 
+    height: 30px; 
+    left: 529px; 
+    top: 955px;
+    position: absolute;
+    color: #345E8B; 
+    font-size: 22px; 
+    font-family: Kameron;
+    word-wrap: break-word
+}
+
