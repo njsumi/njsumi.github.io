@@ -8,8 +8,8 @@ body {
 
 
 #me {
-    width: 364px; 
-    height: 456px; 
+    width: 200px; 
+    height: auto; 
     top: 66px; 
     left: 60px;
     position: absolute;
