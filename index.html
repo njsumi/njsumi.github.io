@@ -1,1 +1,63 @@
-Hello World
+{% load static %}
+
+<!DOCTYPE html>
+
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nina Gruteser</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}?142258537">
+</head>
+
+<body>
+    <div>
+        <div>
+            <img id="me" src="{% static 'images/me.png' %}">
+            <h1 class="title">COVER PALETTE <br>2 0 2 3</h1>
+            <h2 class="subtitle">PLAYLIST COVER <br> GENERATOR</h2>
+            <h3 class="name">[ NINA GRUTESER ]</h3>
+        </div>
+
+        <div id="slider">
+            <figure>
+                <img id="img1" src="{% static 'images/img-1.png' %}" alt="img 1">
+                <img id="img2" src="{% static 'images/img-2.png' %}" alt="img 2">
+                <img id="img3" src="{% static 'images/img-3.png' %}" alt="img 3">
+                <img id="img4" src="{% static 'images/img-4.png' %}" alt="img 4">
+                <img id="img5" src="{% static 'images/img-5.png' %}" alt="img 5">
+                <img id="img6" src="{% static 'images/img-6.png' %}" alt="img 6">
+            </figure>
+            
+        </div>
+
+        <div>
+            <h1 class="textbox">Enter     Your  <br/>          Spotify  Playlist  URL</h1>
+        </div>
+
+    </div>
+    
+
+    
+    <form method="post" action="{% url 'index' %}">
+        {% csrf_token %}
+        <div id="input-container">
+            <textarea id="url" name="url"></textarea>
+            <!-- <input type="text" id="url" name="url">  -->
+        </div>
+
+        <br>
+
+        <div>
+            <button class="generate" type="submit">GENERATE</button>
+        </div>
+
+        <br>
+        
+    </form>
+
+    <div class="bottom"></div>
+
+
+</body>
+</html>
