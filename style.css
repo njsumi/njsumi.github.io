@@ -10,14 +10,14 @@ body {
 #me {
     width: 300px; 
     height: auto; 
-    top: 66px; 
-    left: 60px;
+    top: 100px; 
+    left: 100px;
     position: absolute;
 }
 
 #nina_gruteser {
     width: 401px; 
-    height: 95px; 
+    height: auto; 
     top: 514px; 
     left: 95px;
     position: absolute;
@@ -25,7 +25,7 @@ body {
 
 #about_me_header {
     width: 335px; 
-    height: 81px; 
+    height: auto; 
     top: 69px; 
     left: 495px;
     position: absolute;
@@ -33,16 +33,16 @@ body {
 
 #publications_header {
     width: 415px; 
-    height: 71px; 
-    top: 479px; 
+    height: auto; 
+    top: 350px; 
     left: 490px;
     position: absolute;
 }
 
 #projects_header {
     width: 340px; 
-    height: 91px; 
-    top: 722px; 
+    height: auto; 
+    top: 500px; 
     left: 458px;
     position: absolute;
 }
@@ -51,8 +51,8 @@ body {
 h3.about_me {
     width: 602px; 
     height: 270px; 
-    left: 529px; 
     top: 150px;
+    left: 529px; 
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
@@ -64,8 +64,8 @@ h3.about_me {
 h3.paper1 {
     width: 700px; 
     height: 30px; 
+    top: 364px;
     left: 529px; 
-    top: 564px;
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
@@ -76,8 +76,8 @@ h3.paper1 {
 h3.conference {
     width: 700px; 
     height: 30px; 
+    top: 394px;
     left: 529px; 
-    top: 594px;
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
@@ -88,8 +88,8 @@ h3.conference {
 h3.authors {
     width: 700px; 
     height: 30px; 
+    top: 424px;
     left: 529px; 
-    top: 624px;
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
@@ -100,8 +100,8 @@ h3.authors {
 h3.color_palette {
     width: 700px; 
     height: 30px; 
+    top: 530px;
     left: 529px; 
-    top: 827px;
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
@@ -112,8 +112,8 @@ h3.color_palette {
 h3.lip_coders {
     width: 121px; 
     height: 30px; 
+    top: 600px;
     left: 529px; 
-    top: 955px;
     position: absolute;
     color: #345E8B; 
     font-size: 22px; 
