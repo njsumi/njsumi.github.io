@@ -7,11 +7,19 @@ body {
 }
 
 
+#me {
+    width: 364px; 
+    height: 456px; 
+    top: 66px; 
+    left: 60px;
+    position: absolute;
+}
+
 #nina_gruteser {
-    width: 256px; 
-    height: 256px; 
-    top: 464px; 
-    left: -213px;
+    width: 401px; 
+    height: 95px; 
+    top: 514px; 
+    left: 95px;
     position: absolute;
 }
 
