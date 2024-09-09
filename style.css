@@ -42,7 +42,7 @@ body {
 #projects_header {
     width: 340px; 
     height: auto; 
-    top: 500px; 
+    top: 550px; 
     left: 458px;
     position: absolute;
 }
@@ -128,7 +128,7 @@ h3.authors {
 h3.color_palette {
     width: 700px; 
     height: 30px; 
-    top: 530px;
+    top: 630px;
     left: 529px; 
     position: absolute;
     color: #345E8B; 
@@ -141,7 +141,7 @@ h3.color_palette {
 h3.lip_coders {
     width: 121px; 
     height: 30px; 
-    top: 600px;
+    top: 700px;
     left: 529px; 
     position: absolute;
     color: #345E8B; 
