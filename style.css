@@ -197,3 +197,40 @@ h3.lip_coders {
     color: #F8F5ED;
 }
 
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    position: absolute; 
+    /* top: 800px;  
+    left: 529px; */
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    position: absolute; 
+    /* top: 800px;  
+    left: 529px; */
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+
+.mail-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    position: absolute; 
+    /* top: 800px;  
+    left: 529px; */
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+
