@@ -204,8 +204,8 @@ h3.lip_coders {
     border: none; 
     cursor: pointer;
     position: absolute; 
-    top: 500px;  
-    left: 50px;
+    top: 550px;  
+    left: 100px;
     /* transition: background-color 0.3s, color 0.3s; */
 }
 
@@ -217,8 +217,8 @@ h3.lip_coders {
     border: none; 
     cursor: pointer;
     position: absolute; 
-    top: 500px;  
-    left: 100px;
+    top: 550px;  
+    left: 200px;
     /* transition: background-color 0.3s, color 0.3s; */
 }
 
@@ -229,8 +229,8 @@ h3.lip_coders {
     border: none; 
     cursor: pointer;
     position: absolute; 
-    top: 500px;  
-    left: 150px;
+    top: 550px;  
+    left: 300px;
     /* transition: background-color 0.3s, color 0.3s; */
 }
 
