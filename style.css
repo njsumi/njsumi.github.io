@@ -209,6 +209,11 @@ h3.lip_coders {
     /* transition: background-color 0.3s, color 0.3s; */
 }
 
+.github-button:hover .github-img {
+    content: url('images/github_hover.png'); 
+    transition: 0.3s ease; 
+}
+
 
 .linkedin-button {
     display: inline-block;
@@ -222,6 +227,11 @@ h3.lip_coders {
     /* transition: background-color 0.3s, color 0.3s; */
 }
 
+.linkedin-button:hover .linkedin-img {
+    content: url('images/linked_in_hover.png'); 
+    transition: 0.3s ease; 
+}
+
 .mail-button {
     display: inline-block;
     padding: 10px 20px;
@@ -232,5 +242,10 @@ h3.lip_coders {
     top: 550px;  
     left: 300px;
     /* transition: background-color 0.3s, color 0.3s; */
+}
+
+.github-button:hover .mail-img {
+    content: url('images/mail_hover.png'); 
+    transition: 0.3s ease; 
 }
 
