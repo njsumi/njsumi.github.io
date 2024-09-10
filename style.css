@@ -151,7 +151,7 @@ h3.color_palette {
     border-radius: 20px;
     cursor: pointer;
     position: absolute; 
-    top: 700px;  
+    top: 680px;  
     left: 529px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -187,7 +187,7 @@ h3.lip_coders {
     border-radius: 20px;
     cursor: pointer;
     position: absolute; 
-    top: 800px;  
+    top: 780px;  
     left: 529px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -206,15 +206,7 @@ h3.lip_coders {
     position: absolute; 
     top: 550px;  
     left: 110px;
-    /* transition: background-color 0.3s, color 0.3s; */
 }
-
-/* .github-button:hover .github-img {
-    content: url('images/github_hover.png');  
-    src: url('images/github_hover.png');
-    transform: scale(1.1);
-    transition: 0.3s ease; 
-} */
 
 
 .linkedin-button {
@@ -226,15 +218,8 @@ h3.lip_coders {
     position: absolute; 
     top: 550px;  
     left: 180px;
-    /* transition: background-color 0.3s, color 0.3s; */
 }
 
-/* .linkedin-button:hover .linkedin-img {
-    content: url('images/linked_in_hover.png');  
-    src: url('images/linked_in_hover.png');
-    transform: scale(1.1);
-    transition: 0.3s ease; 
-} */
 
 .mail-button {
     display: inline-block;
@@ -245,12 +230,7 @@ h3.lip_coders {
     position: absolute; 
     top: 555px;  
     left: 250px;
-    /* transition: background-color 0.3s, color 0.3s; */
 }
 
-/* .mail-button:hover .mail-img {
-    src: url('images/mail_hover.png');
-    transform: scale(1.1);
-    transition: 0.3s ease; 
-} */
+
 
