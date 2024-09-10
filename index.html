@@ -28,6 +28,32 @@
                 <img src="images/mail.png" alt="Custom Button" style="width: 60px; height: auto;">
             </button>
 
+            <script>
+                // GitHub hover effect
+                document.getElementById("github-img").addEventListener("mouseover", function() {
+                    this.src = "images/github_hover.png"; // Change to hover image
+                });
+                document.getElementById("github-img").addEventListener("mouseout", function() {
+                    this.src = "images/github.png"; // Revert to original image
+                });
+        
+                // LinkedIn hover effect
+                document.getElementById("linkedin-img").addEventListener("mouseover", function() {
+                    this.src = "images/linkedin_hover.png";
+                });
+                document.getElementById("linkedin-img").addEventListener("mouseout", function() {
+                    this.src = "images/linkedin.png";
+                });
+        
+                // Mail hover effect
+                document.getElementById("mail-img").addEventListener("mouseover", function() {
+                    this.src = "images/mail_hover.png";
+                });
+                document.getElementById("mail-img").addEventListener("mouseout", function() {
+                    this.src = "images/mail.png";
+                });
+            </script>
+
         </div>
 
         <div>
