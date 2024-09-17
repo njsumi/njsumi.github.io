@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <div>
-        <div>
-            <img id="me" src="images/me.jpg">
+    <div class="container">
+        <div class="section">
+            <img id="me" src="images/me2.jpg">
             <img id="nina_gruteser" src="images/nina_gruteser.jpg">
 
             <button class="github-button" onclick="window.location.href='https://github.com/njsumi';">
@@ -31,10 +31,10 @@
             <script>
                 // GitHub hover effect
                 document.getElementById("github-img").addEventListener("mouseover", function() {
-                    this.src = "images/github_hover.png"; // Change to hover image
+                    this.src = "images/github_hover.png"; 
                 });
                 document.getElementById("github-img").addEventListener("mouseout", function() {
-                    this.src = "images/github.png"; // Revert to original image
+                    this.src = "images/github.png"; 
                 });
         
                 // LinkedIn hover effect
@@ -56,7 +56,7 @@
 
         </div>
 
-        <div>
+        <div class="section">
             <img id="about_me_header" src="images/about_me.jpg">
             <h3 class="about_me">I am a second-year undergraduate student at Purdue University, pursuing a double major in Computer 
                                  Science Honors and Artificial Intelligence. My interests and experiences include software engineering, 
@@ -65,7 +65,7 @@
                                  Outside the classroom, I enjoy painting, reading a good book, and cooking!</h3>
         </div>
 
-        <div>
+        <div class="section">
             <img id="publications_header" src="images/publications.jpg">
             <h3 class="paper1">Head and Neck Tumor Segmentation With Sliced 3D PET Scans (IEEE/ACM CHASE 2022)</h3>
             <h3 class="authors">Nina Gruteser</h3>
@@ -76,7 +76,7 @@
         </div>
         
 
-        <div>
+        <div class="section">
             <img id="projects_header" src="images/projects.jpg">
             <h3 class="color_palette">Color Palette</h3>
             <button class="colorpalette-button" onclick="location.href='https://github.com/njsumi/Playlist-Cover-Generator'" target="_blank">repo</button>

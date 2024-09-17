@@ -1,235 +1,99 @@
-body,
-html {
-    background-color: #F8F5ED
+/* Global Styles */
+body, html {
+    background-color: #F8F5ED;
+    margin: 0;
+    padding: 0;
 }
+
 body {
     padding-bottom: 50px;
+    font-family: 'Kameron', serif;
 }
 
+/* Container for layout */
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* For each section */
+.section {
+    flex: 1 1 400px; 
+    max-width: 600px;
+    text-align: center;
+}
 
 #me {
-    width: 300px; 
-    height: auto; 
-    top: 100px; 
-    left: 100px;
-    position: absolute;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 #nina_gruteser {
-    width: 401px; 
-    height: auto; 
-    top: 450px; 
-    left: 45px;
-    position: absolute;
+    width: 100%;
+    height: auto;
 }
 
-#about_me_header {
-    width: 335px; 
-    height: auto; 
-    top: 69px; 
-    left: 495px;
-    position: absolute;
+/* Buttons */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
-#publications_header {
-    width: 415px; 
-    height: auto; 
-    top: 300px; 
-    left: 490px;
-    position: absolute;
+#about_me_header, #publications_header, #projects_header {
+    width: 100%;
+    height: auto;
 }
 
-#projects_header {
-    width: 340px; 
-    height: auto; 
-    top: 550px; 
-    left: 458px;
-    position: absolute;
-}
-
-
-h3.about_me {
-    width: 1000px; 
-    height: 270px; 
-    top: 150px;
-    left: 529px; 
-    position: absolute;
-    color: #345E8B; 
-    font-size: 22px; 
+/* Text Styles */
+h3 {
+    color: #345E8B;
+    font-size: 22px;
     font-weight: 200;
-    font-family: 'Kameron', serif;
-    word-wrap: break-word
+    margin: 20px 0;
 }
 
-
-h3.paper1 {
-    width: 2000px; 
-    height: 30px; 
-    top: 380px;
-    left: 529px; 
-    position: absolute;
-    color: #345E8B; 
-    font-size: 22px; 
+.about_me {
+    font-size: 22px;
     font-weight: 200;
-    font-family: 'Kameron', serif;
-    word-wrap: break-word
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-/* h3.conference {
-    width: 700px; 
-    height: 30px; 
-    top: 394px;
-    left: 529px; 
-    position: absolute;
-    color: #345E8B; 
-    font-size: 22px; 
-    font-family: Kameron;
-    word-wrap: break-word
-} */
-
-h3.authors {
-    width: 700px; 
-    /* height: 30px;  */
-    top: 420px;
-    left: 529px; 
-    position: absolute;
-    color: #345E8B; 
-    font-size: 18px; 
-    font-weight: 200;
-    font-family: 'Kameron', serif;
-    word-wrap: break-word;
-    /* margin-bottom: 10px; */
-}
-
-.paper1-button {
-    display: inline-block;
+.paper1-button, .colorpalette-button, .lipcoders-button {
     padding: 10px 20px;
-    background-color: transparent; 
-    color: #345E8B; 
+    background-color: transparent;
+    color: #345E8B;
     font-size: 16px;
-    font-family: 'Kameron', serif;
-    text-align: center;
-    text-decoration: none;
-    border: 2px solid #345E8B; 
+    border: 2px solid #345E8B;
     border-radius: 20px;
     cursor: pointer;
-    position: absolute; 
-    top: 470px;  
-    left: 529px;
+    margin-top: 10px;
     transition: background-color 0.3s, color 0.3s;
 }
 
-.paper1-button:hover {
+.paper1-button:hover, .colorpalette-button:hover, .lipcoders-button:hover {
     background-color: #345E8B;
     color: #F8F5ED;
 }
 
+/* Media Query for Mobile */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
 
-h3.color_palette {
-    width: 700px; 
-    height: 30px; 
-    top: 630px;
-    left: 529px; 
-    position: absolute;
-    color: #345E8B; 
-    font-size: 22px; 
-    font-weight: 200;
-    font-family: 'Kameron', serif;
-    word-wrap: break-word
-}
+    .section {
+        width: 100%; 
+    }
 
-.colorpalette-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: transparent; 
-    color: #345E8B; 
-    font-size: 16px;
-    font-family: 'Kameron', serif;
-    text-align: center;
-    text-decoration: none;
-    border: 2px solid #345E8B; 
-    border-radius: 20px;
-    cursor: pointer;
-    position: absolute; 
-    top: 680px;  
-    left: 529px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.colorpalette-button:hover {
-    background-color: #345E8B;
-    color: #F8F5ED;
-}
-
-h3.lip_coders {
-    width: 121px; 
-    height: 30px; 
-    top: 730px;
-    left: 529px; 
-    position: absolute;
-    color: #345E8B; 
-    font-size: 22px; 
-    font-weight: 200;
-    font-family: 'Kameron', serif;
-    word-wrap: break-word
-}
-
-.lipcoders-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: transparent; 
-    color: #345E8B; 
-    font-size: 16px;
-    font-family: 'Kameron', serif;
-    text-align: center;
-    text-decoration: none;
-    border: 2px solid #345E8B; 
-    border-radius: 20px;
-    cursor: pointer;
-    position: absolute; 
-    top: 780px;  
-    left: 529px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.lipcoders-button:hover {
-    background-color: #345E8B;
-    color: #F8F5ED;
-}
-
-.github-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: transparent; 
-    border: none; 
-    cursor: pointer;
-    position: absolute; 
-    top: 550px;  
-    left: 110px;
-}
-
-
-.linkedin-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: transparent; 
-    border: none; 
-    cursor: pointer;
-    position: absolute; 
-    top: 550px;  
-    left: 180px;
-}
-
-
-.mail-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: transparent; 
-    border: none; 
-    cursor: pointer;
-    position: absolute; 
-    top: 555px;  
-    left: 250px;
+    #me {
+        width: 200px; 
+    }
 }
 
 
