@@ -10,22 +10,22 @@ body {
     font-family: 'Kameron', serif;
 }
 
-/* Container for layout */
+/* Flexbox layout for mobile/tablets */
 .container {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
 }
 
-/* For each section */
 .section {
-    flex: 1 1 400px; 
+    flex: 1 1 400px;
     max-width: 600px;
     text-align: center;
 }
 
+/* Mobile Layout */
 #me {
     width: 300px;
     border-radius: 50%;
@@ -81,20 +81,160 @@ h3 {
     color: #F8F5ED;
 }
 
-/* Media Query for Mobile */
-@media only screen and (max-width: 768px) {
+/* Media Query for Laptops (Desktop) */
+@media only screen and (min-width: 769px) {
     .container {
-        flex-direction: column; 
-    }
-
-    .section {
-        width: 100%; 
+        display: block;
     }
 
     #me {
-        width: 200px; 
+        width: 300px; 
+        height: auto; 
+        top: 100px; 
+        left: 100px;
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    #nina_gruteser {
+        width: 401px; 
+        height: auto; 
+        top: 450px; 
+        left: 45px;
+        position: absolute;
+    }
+
+    #about_me_header {
+        width: 335px; 
+        height: auto; 
+        top: 69px; 
+        left: 495px;
+        position: absolute;
+    }
+
+    #publications_header {
+        width: 415px; 
+        height: auto; 
+        top: 300px; 
+        left: 490px;
+        position: absolute;
+    }
+
+    #projects_header {
+        width: 340px; 
+        height: auto; 
+        top: 550px; 
+        left: 458px;
+        position: absolute;
+    }
+
+    h3.about_me {
+        width: 1000px; 
+        height: 270px; 
+        top: 150px;
+        left: 529px; 
+        position: absolute;
+        color: #345E8B; 
+        font-size: 22px; 
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+
+    h3.paper1 {
+        width: 2000px; 
+        height: 30px; 
+        top: 380px;
+        left: 529px; 
+        position: absolute;
+        color: #345E8B; 
+        font-size: 22px; 
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+
+    h3.authors {
+        width: 700px; 
+        top: 420px;
+        left: 529px; 
+        position: absolute;
+        color: #345E8B; 
+        font-size: 18px; 
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+
+    .paper1-button {
+        top: 470px;  
+        left: 529px;
+        position: absolute;
+    }
+
+    h3.color_palette {
+        width: 700px; 
+        height: 30px; 
+        top: 630px;
+        left: 529px; 
+        position: absolute;
+        color: #345E8B; 
+        font-size: 22px; 
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+
+    .colorpalette-button {
+        top: 680px;  
+        left: 529px;
+        position: absolute;
+    }
+
+    h3.lip_coders {
+        width: 121px; 
+        height: 30px; 
+        top: 730px;
+        left: 529px; 
+        position: absolute;
+        color: #345E8B; 
+        font-size: 22px; 
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+
+    .lipcoders-button {
+        top: 780px;  
+        left: 529px;
+        position: absolute;
+    }
+
+    .github-button {
+        top: 550px;  
+        left: 110px;
+        position: absolute;
+    }
+
+    .linkedin-button {
+        top: 550px;  
+        left: 180px;
+        position: absolute;
+    }
+
+    .mail-button {
+        top: 555px;  
+        left: 250px;
+        position: absolute;
     }
 }
 
+/* Media Query for Mobile */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 
+    .section {
+        width: 100%;
+    }
 
+    #me {
+        width: 200px;
+    }
+}
