@@ -87,6 +87,14 @@ h3 {
         display: block;
     }
 
+    h3.about_me,
+    h3.paper1,
+    h3.authors,
+    h3.color_palette,
+    h3.lip_coders {
+        text-align: right;
+    }
+
     #me {
         width: 300px; 
         height: auto; 
