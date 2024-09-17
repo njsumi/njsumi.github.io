@@ -92,7 +92,7 @@ h3 {
     h3.authors,
     h3.color_palette,
     h3.lip_coders {
-        text-align: right;
+        text-align: left;
     }
 
     #me {
