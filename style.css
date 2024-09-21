@@ -64,7 +64,7 @@ h3 {
     margin: 0 auto;
 }
 
-.paper1-button, .colorpalette-button, .lipcoders-button {
+.paper1-button, .colorpalette-button, .lipcoders-button, .video-button {
     padding: 10px 20px;
     background-color: transparent;
     color: #345E8B;
@@ -192,6 +192,12 @@ h3 {
     .colorpalette-button {
         top: 680px;  
         left: 529px;
+        position: absolute;
+    }
+
+    .video-button {
+        top: 680px;  
+        left: 630px;
         position: absolute;
     }
 
