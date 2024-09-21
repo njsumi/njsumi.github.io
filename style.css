@@ -24,7 +24,8 @@ body {
     margin-right: 50px; 
     flex-direction: column; 
     text-align: center; 
-    justify-content: center;  
+    justify-content: flex-start;  
+    align-items: center;
 }
 
 .right-column {
@@ -68,7 +69,13 @@ button {
     margin-bottom: 10px;
 }
 
-#about-me-header, #projects-header {
+#about-me-header {
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#projects-header {
     width: 15%;
     height: auto;
     margin-bottom: 10px;
@@ -80,7 +87,7 @@ h3 {
     font-size: 22px;
     font-weight: 200;
     margin: 20px 0;
-    /* max-width: 1000px; */
+    max-width: 1000px;
     /* width: 100%; */
 }
 
