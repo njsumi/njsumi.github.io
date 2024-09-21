@@ -64,6 +64,11 @@ h3 {
     margin: 0 auto;
 }
 
+.color-palette, 
+.lip-coders {
+    font-weight: 500;
+}
+
 .paper1-button, .colorpalette-button, .lipcoders-button, .video-button {
     padding: 10px 20px;
     background-color: transparent;
@@ -113,7 +118,7 @@ h3 {
     }
 
     #about_me_header {
-        width: 335px; 
+        width: 250px; 
         height: auto; 
         top: 69px; 
         left: 495px;
@@ -121,7 +126,7 @@ h3 {
     }
 
     #publications_header {
-        width: 415px; 
+        width: 300px; 
         height: auto; 
         top: 300px; 
         left: 490px;
@@ -129,7 +134,7 @@ h3 {
     }
 
     #projects_header {
-        width: 340px; 
+        width: 250px; 
         height: auto; 
         top: 550px; 
         left: 458px;
@@ -174,7 +179,7 @@ h3 {
         position: absolute;
         color: #345E8B; 
         font-size: 22px; 
-        font-weight: 200;
+        font-weight: 500;
         word-wrap: break-word;
     }
 
@@ -210,7 +215,7 @@ h3 {
         position: absolute;
         color: #345E8B; 
         font-size: 22px; 
-        font-weight: 200;
+        font-weight: 500;
         word-wrap: break-word;
     }
 
