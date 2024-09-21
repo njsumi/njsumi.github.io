@@ -32,7 +32,7 @@ body {
     margin-bottom: 20px;
 }
 
-#nina_gruteser {
+#nina-gruteser {
     width: 100%;
     height: auto;
 }
@@ -44,7 +44,7 @@ button {
     cursor: pointer;
 }
 
-#about_me_header, #publications_header, #projects_header {
+#about-me-header, #publications-header, #projects-header {
     width: 70%;
     height: auto;
 }
@@ -57,7 +57,7 @@ h3 {
     margin: 20px 0;
 }
 
-.about_me {
+.about-me {
     font-size: 22px;
     font-weight: 200;
     max-width: 1000px;
@@ -92,10 +92,10 @@ h3 {
         display: block;
     }
 
-    h3.about_me,
+    h3.about-me,
     h3.paper1,
-    h3.color_palette,
-    h3.lip_coders,
+    h3.color-palette,
+    h3.lip-coders,
     h3.color-palette-description {
         text-align: left;
     }
@@ -109,7 +109,7 @@ h3 {
         border-radius: 50%;
     }
 
-    #nina_gruteser {
+    #nina-gruteser {
         width: 401px; 
         height: auto; 
         top: 450px; 
@@ -117,7 +117,7 @@ h3 {
         position: absolute;
     }
 
-    #about_me_header {
+    #about-me-header {
         width: 250px; 
         height: auto; 
         top: 69px; 
@@ -125,7 +125,7 @@ h3 {
         position: absolute;
     }
 
-    #publications_header {
+    #publications-header {
         width: 300px; 
         height: auto; 
         top: 300px; 
@@ -133,7 +133,7 @@ h3 {
         position: absolute;
     }
 
-    #projects_header {
+    #projects-header {
         width: 250px; 
         height: auto; 
         top: 550px; 
@@ -141,7 +141,7 @@ h3 {
         position: absolute;
     }
 
-    h3.about_me {
+    h3.about-me {
         width: 1000px; 
         height: 270px; 
         top: 150px;
@@ -171,7 +171,7 @@ h3 {
         position: absolute;
     }
 
-    h3.color_palette {
+    h3.color-palette {
         width: 700px; 
         height: 30px; 
         top: 630px;
@@ -207,7 +207,7 @@ h3 {
         position: absolute;
     }
 
-    h3.lip_coders {
+    h3.lip-coders {
         width: 121px; 
         height: 30px; 
         top: 850px;
