@@ -300,7 +300,19 @@ h3 {
         width: 100%;
     }
 
+    h3 {
+        text-align: center;
+    }
+
     #me {
         width: 200px;
+    }
+
+    #about-me-header, 
+    #publications-header, 
+    #projects-header {
+        width: 70%; 
+        height: auto;
+        margin: 0 auto;
     }
 }
