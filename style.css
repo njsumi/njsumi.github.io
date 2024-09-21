@@ -339,6 +339,6 @@ h3 {
     #projects-header {
         width: 70%; 
         height: auto;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
 }
