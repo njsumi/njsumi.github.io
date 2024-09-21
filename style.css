@@ -20,7 +20,7 @@ body {
 }
 
 .left-column {
-    flex: 0 0 350px; 
+    flex: 0 0 400px; 
     margin-right: 20px; 
     text-align: center; 
     justify-content: center;  
@@ -31,6 +31,7 @@ body {
     display: flex;
     flex-direction: column; 
     gap: 20px; 
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -68,15 +69,19 @@ button {
 h3 {
     color: #345E8B;
     font-size: 22px;
-    font-weight: 200;
     margin: 20px 0;
+    max-width: 1000px;
+    width: 100%;
 }
 
-.about-me {
+.about-me, 
+.color-palette-description,
+.lip-coders-description,
+.paper1 {
     font-size: 22px;
     font-weight: 200;
-    max-width: 1000px;
     margin: 0 auto;
+    font-weight: 200;
 }
 
 .color-palette, 
