@@ -20,7 +20,7 @@ body {
 }
 
 .left-column {
-    flex: 0 0 350px; 
+    flex: 0 0 300px; 
     margin-right: 50px; 
     flex-direction: column; 
     text-align: center; 
@@ -62,8 +62,14 @@ button {
     cursor: pointer;
 }
 
-#about-me-header, #publications-header, #projects-header {
+#publications-header {
     width: 25%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#about-me-header, #projects-header {
+    width: 15%;
     height: auto;
     margin-bottom: 10px;
 }
