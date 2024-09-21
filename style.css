@@ -45,7 +45,7 @@ button {
 }
 
 #about_me_header, #publications_header, #projects_header {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -76,7 +76,7 @@ h3 {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.paper1-button:hover, .colorpalette-button:hover, .lipcoders-button:hover {
+.paper1-button:hover, .colorpalette-button:hover, .lipcoders-button:hover, .video-button:hover {
     background-color: #345E8B;
     color: #F8F5ED;
 }
@@ -89,9 +89,9 @@ h3 {
 
     h3.about_me,
     h3.paper1,
-    h3.authors,
     h3.color_palette,
-    h3.lip_coders {
+    h3.lip_coders,
+    h3.color-palette-description {
         text-align: left;
     }
 
@@ -160,17 +160,6 @@ h3 {
         word-wrap: break-word;
     }
 
-    h3.authors {
-        width: 700px; 
-        top: 420px;
-        left: 529px; 
-        position: absolute;
-        color: #345E8B; 
-        font-size: 18px; 
-        font-weight: 200;
-        word-wrap: break-word;
-    }
-
     .paper1-button {
         top: 470px;  
         left: 529px;
@@ -189,14 +178,26 @@ h3 {
         word-wrap: break-word;
     }
 
+    h3.color-palette-description {
+        width: 1000px; 
+        height: 30px; 
+        top: 700px;
+        left: 529px; 
+        position: absolute;
+        color: #345E8B; 
+        font-size: 22px; 
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+
     .colorpalette-button {
-        top: 680px;  
+        top: 800px;  
         left: 529px;
         position: absolute;
     }
 
     .video-button {
-        top: 680px;  
+        top: 800px;  
         left: 630px;
         position: absolute;
     }
@@ -204,7 +205,19 @@ h3 {
     h3.lip_coders {
         width: 121px; 
         height: 30px; 
-        top: 730px;
+        top: 850px;
+        left: 529px; 
+        position: absolute;
+        color: #345E8B; 
+        font-size: 22px; 
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+
+    h3.color-palette-description {
+        width: 1000px; 
+        height: 30px; 
+        top: 900px;
         left: 529px; 
         position: absolute;
         color: #345E8B; 
@@ -214,7 +227,7 @@ h3 {
     }
 
     .lipcoders-button {
-        top: 780px;  
+        top: 950px;  
         left: 529px;
         position: absolute;
     }
