@@ -76,7 +76,7 @@ button {
 }
 
 #projects-header {
-    width: 15%;
+    width: 20%;
     height: auto;
     margin-bottom: 10px;
 }
@@ -334,10 +334,24 @@ h3 {
         width: 200px;
     }
 
-    #about-me-header, 
-    #publications-header, 
+    .header-wrapper {
+        width: 100%; 
+    }
+
+    #publications-header {
+        /* width: 25%; */
+        height: auto;
+        margin: 0 auto !important;
+    }
+    
+    #about-me-header {
+        /* width: 20%; */
+        height: auto;
+        margin: 0 auto !important;
+    }
+    
     #projects-header {
-        width: 70%; 
+        /* width: 20%; */
         height: auto;
         margin: 0 auto !important;
     }
