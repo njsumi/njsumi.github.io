@@ -120,7 +120,7 @@ h3 {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.paper1-button:hover, .colorpalette-button:hover, .lipcoders-button:hover, .video-button:hover {
+.paper1-button:hover, .colorpalette-button:hover, .lipcoders-button:hover, .video-button:hover, .resume-button:hover {
     background-color: #345E8B;
     color: #F8F5ED;
 }
@@ -353,7 +353,8 @@ h3 {
     .paper1-button,
     .colorpalette-button,
     .lipcoders-button,
-    .video-button {
+    .video-button,
+    .resume-button {
         display: inline-block;
         margin: 10px auto; 
     }
