@@ -15,21 +15,21 @@ function App() {
     {
       title: "Reconstructing Human–Object Interactions",
       image: "/images/human_object_interaction.png",
-      description: '...',
+      description: 'This research project focuses on designing a hybrid pipeline that reconstructs 3D human and object poses from multi-view RGB-D videos. We combined monocular human motion recovery (GVHMR) with multi-view object tracking (FoundationPose), implemented coordinate space alignment and joint refinement, and evaluated the accuracy of the pipeline on the BEHAVE dataset.',
       github: 'https://github.com/Marco-Weder/Reconstructing-Human-Object-Interactions-from-Monocular-Videos',
       report: '/pages/Reconstructing_Human_Object_Interactions_from_Monocular_Videos.pdf'
     },
     {
       title: "Benchmarking VLMs for Robotic Spatial and Affordance Understanding",
       image: "/images/benchmarking_vlms.png",
-      description: '...',
+      description: 'This project investigates spatial reasoning and affordance understanding in open-source Vision-Language Models (VLMs) by buildingan evaluation pipeline to benchmark and model failures using the Robo2VLM dataset. We designed automated tests using Chain-of-Thought prompting, monocular depth maps via Depth Anything V2, and visual grounding sanity checks to uncover reasoning failures in robotic perception.',
       github: 'https://github.com/momobhz/benchmarking-vlms',
       report: '/pages/Benchmarking_Spatial_and_Affordance_Reasoning_in_Vision_Language_Models_for_Robotics.pdf',
     },
     {
       title: "Head and Neck Tumor Segmentation With Sliced 3D PET Scans",
       image: "/images/segmentation.png",
-      description: '...',
+      description: 'This research proposes a semi-automatic 3D segmentation model for head and neck tumors in PET Scans by slicing the 3D PET Scans into 2D images and separate the slices into slices with tumor andslices without tumor. Only the slices with tumor get segmented by a 2D U-Net, leading to better performance than previous fully automated segmentation approaches.',
       report: '/pages/chase-2022.pdf',
     },
     {
