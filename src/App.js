@@ -13,6 +13,32 @@ function App() {
 
   const projects = [
     {
+      title: "Reconstructing Human–Object Interactions",
+      image: "/images/human_object_interaction.png",
+      description: '...',
+      github: 'https://github.com/njsumi/Playlist-Cover-Generator',
+      report: '/pages/Reconstructing_Human_Object_Interactions_from_Monocular_Videos.pdf'
+    },
+    {
+      title: "Benchmarking VLMs for Robotic Spatial and Affordance Understanding",
+      image: "/images/benchmarking_vlms.png",
+      description: '...',
+      github: 'https://github.com/njsumi/Playlist-Cover-Generator',
+      report: '/pages/Benchmarking_Spatial_and_Affordance_Reasoning_in_Vision_Language_Models_for_Robotics.pdf',
+    },
+    {
+      title: "Head and Neck Tumor Segmentation With Sliced 3D PET Scans",
+      image: "/images/segmentation.png",
+      description: '...',
+      report: '/pages/chase-2022.pdf',
+    },
+    {
+      title: "Cover Palette",
+      image: "/images/cover_palette.png",
+      description: 'Cover Palette is a Generative AI playlist cover image generator, where users can obtain unique playlist cover images for their playlists through a website. Takes a Spotify playlist URL and extracts features such as the energy, time signature, tempo, and danceability of the songs in the playlist using Spotify’s WebAPI. Using these features, an image generation prompt is created and sent to DALLE to create three unique images that match the musicality of the given playlist.',
+      github: 'https://github.com/njsumi/Playlist-Cover-Generator',
+    },
+    {
       title: "Cover Palette",
       image: "/images/cover_palette.png",
       description: 'Cover Palette is a Generative AI playlist cover image generator, where users can obtain unique playlist cover images for their playlists through a website. Takes a Spotify playlist URL and extracts features such as the energy, time signature, tempo, and danceability of the songs in the playlist using Spotify’s WebAPI. Using these features, an image generation prompt is created and sent to DALLE to create three unique images that match the musicality of the given playlist.',
