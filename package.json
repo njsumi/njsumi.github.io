@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build -r https://github.com/njsumi/njsumi.github.io.git"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
