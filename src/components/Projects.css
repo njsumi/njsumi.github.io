@@ -38,7 +38,7 @@
 .project-images img {
     flex-shrink: 1;
     width: 100%;
-    aspect-ratio: 4 / 3; 
+    aspect-ratio: 16 / 9; 
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
