@@ -53,14 +53,15 @@ html {
   line-height: 1.6;
 }
 
-.github-button-wrapper {
+.modal-buttons-wrapper {
   display: flex;
   justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-.github-button {
+.modal-button {
   display: inline-block;
-  margin-top: 2rem;
   padding: 0.5rem 1.75rem;
   background-color: #656565;
   color: white;
@@ -74,6 +75,6 @@ html {
   transition: background-color 0.3s ease;
 }
 
-.github-button:hover {
+.modal-button:hover {
   background-color: #494945;
 }
