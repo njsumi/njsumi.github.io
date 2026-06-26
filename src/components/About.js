@@ -14,7 +14,7 @@ export default function About() {
             Outside of tech, I enjoy exploring creativity through art, fashion, and digital design, and I stay busy by hiking, baking, and reading. <br /><br />
             I’m currently seeking opportunities in software engineering and machine learning where I can grow, collaborate, and create meaningful solutions.
           </p>
-          <a className="resume-button" href="images/Nina_Gruteser_Resume_2025.pdf" target="_blank" rel="noopener noreferrer">
+          <a className="resume-button" href="pages/Resume_Fall_2026.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </div>
