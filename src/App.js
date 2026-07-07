@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
 
-  const [selectedProject, setSelectedProject] = useState(null)
+  // const [selectedProject, setSelectedProject] = useState(null)
 
   const projects = [
     {
@@ -52,13 +52,13 @@ function App() {
     },
   ];
 
-  useEffect(() => {
-    if (selectedProject) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-  }, [selectedProject]);
+  // useEffect(() => {
+  //   if (selectedProject) {
+  //     document.body.style.overflow = 'hidden';
+  //   } else {
+  //     document.body.style.overflow = 'auto';
+  //   }
+  // }, [selectedProject]);
 
   return (
     <>
@@ -67,9 +67,10 @@ function App() {
 
       <div className='rect'></div>
 
-      <Projects projects={projects} setSelectedProject={setSelectedProject} />
+      {/* <Projects projects={projects} setSelectedProject={setSelectedProject} /> */}
+      <Projects projects={projects} />
 
-      {selectedProject && (
+      {/* {selectedProject && (
         <div className="modal-overlay" onClick={() => setSelectedProject(null)}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
             <h2>{selectedProject.title}</h2>
@@ -101,7 +102,7 @@ function App() {
             </div>
           </div>
         </div>
-      )}
+      )} */}
 
       <About />
 
