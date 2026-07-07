@@ -1,9 +1,6 @@
 import React from 'react';
 import './Projects.css';
 
-import React from 'react';
-import './Projects.css';
-
 export default function Projects({ projects }) {
   return (
     <section id="projects">
