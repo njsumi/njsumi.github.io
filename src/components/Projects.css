@@ -13,7 +13,8 @@
     font-family: 'Inter';
     font-weight: 300;
     font-size: 28pt;
-    margin: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
   
 .project-images {
