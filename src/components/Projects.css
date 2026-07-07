@@ -4,8 +4,8 @@
     background-color: #EEEFEE;
     display: flex;
     flex-direction: column;
-    /* padding: 5rem 3rem 0 3rem; */
-    padding: 5rem 0 0 4rem; 
+    padding: 5rem 3rem 0 3rem;
+    /* padding: 5rem 0 0 4rem;  */
     box-sizing: border-box;
 }
 
