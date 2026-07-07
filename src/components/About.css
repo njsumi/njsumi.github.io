@@ -23,7 +23,9 @@
     align-items: flex-start;
     justify-content: flex-start;
     box-sizing: border-box;
-    padding: 5vh 3vw; 
+     width: 100%;
+    padding: 5vh 0 0 0; 
+    margin-left: 0;
     gap: 4vw;
     flex-wrap: wrap;
 }
