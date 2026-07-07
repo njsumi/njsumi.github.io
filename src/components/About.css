@@ -6,7 +6,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 5rem 0 0 4rem;
+    padding: 5rem 6rem 0 6rem;
     box-sizing: border-box;
 }
   
@@ -15,7 +15,6 @@
     font-weight: 300;
     font-size: 28pt;
     margin: 0;
-    margin-left: 2rem;
 }
   
 .about-content {
