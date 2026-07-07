@@ -1,21 +1,22 @@
 import React from 'react';
 import './Projects.css';
 
+import React from 'react';
+import './Projects.css';
+
 export default function Projects({ projects }) {
   return (
     <section id="projects">
-      <h1 className="projects-title">Projects</h1>
+      <h1 className="projects">Projects</h1>
       
-      <div className="project-list">
+      <div className="project-images">
         {projects.map((project, index) => (
-          <div className="project-row" key={index}>
+          <div className="project-item" key={index}>
             
-            {/* The Image Side */}
-            <div className="project-image">
-              <img src={project.image} alt={project.title} />
-            </div>
+            {/* Project Image */}
+            <img src={project.image} alt={project.title} />
             
-            {/* The Text and Buttons Side */}
+            {/* Project Details under the image */}
             <div className="project-details">
               <h2>{project.title}</h2>
               <p>{project.description}</p>
@@ -23,12 +24,12 @@ export default function Projects({ projects }) {
               <div className="project-buttons">
                 {project.github && (
                   <a className="project-button" href={project.github} target="_blank" rel="noopener noreferrer">
-                    View on GitHub
+                    GitHub
                   </a>
                 )}
                 {project.report && (
                   <a className="project-button" href={project.report} target="_blank" rel="noopener noreferrer">
-                    View Report
+                    Report
                   </a>
                 )}
               </div>
